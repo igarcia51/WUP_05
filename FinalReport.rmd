@@ -25,9 +25,21 @@ A new  preventative aides drug (triUmpsal) is under test in clinical trials. Con
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
+We chose the categorical-categorical because all the data is organized in categories; males; females; LGBTQ community; vaccinated; unvaccinated.
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
+
+```{r}
+WomanData=filter(triUmp, gender=="F")
+head(WomanData)
+
+```
+
+
+These are the data for all the females in the study. 
+
 
 ## Descriptive Results
 
